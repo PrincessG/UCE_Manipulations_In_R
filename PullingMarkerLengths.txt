@@ -1,4 +1,4 @@
 #Commands that can be called within Terminal to isolate the length of each UCE marker in a given directory.
-##Navigate to the directory that has each UCE marker in it. 
+## Navigate to the directory that has each UCE marker in it. 
 grep nchar= *.nex > NameOfFile.psg
 
