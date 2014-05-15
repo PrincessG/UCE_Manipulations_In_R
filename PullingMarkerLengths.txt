@@ -1,1 +1,4 @@
-#Terminal Commands to isolate the length of each UCE marker in a directory
+#Commands that can be called within Terminal to isolate the length of each UCE marker in a given directory.
+
+grep nchar= *.nex > NameOfFile.me
+
