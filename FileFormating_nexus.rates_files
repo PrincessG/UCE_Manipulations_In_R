@@ -1,0 +1,34 @@
+# Hello! These are commmand to clean up the UCE.nex.rate files names so that the signal/noise scripts in mathematica will work. This is done using bash in terminal. You will have to be in the directory with each .nex.rates file.
+ 
+rename --subst chr1_ _ *.nex.rates
+rename --subst chr2_ _ *.nex.rates
+rename --subst chr3_ _ *.nex.rates
+rename --subst chr4_ _ *.nex.rates
+rename --subst chr5_ _ *.nex.rates
+rename --subst chr6_ _ *.nex.rates
+rename --subst chr7_ _ *.nex.rates
+rename --subst chr8_ _ *.nex.rates
+rename --subst chr9_ _ *.nex.rates
+rename --subst chr10_ _ *.nex.rates
+rename --subst chr11_ _ *.nex.rates
+rename --subst chr12_ _ *.nex.rates
+rename --subst chr13_ _ *.nex.rates
+rename --subst chr14_ _ *.nex.rates
+rename --subst chr15_ _ *.nex.rates
+rename --subst chr16_ _ *.nex.rates
+rename --subst chr17_ _ *.nex.rates
+rename --subst chr18_ _ *.nex.rates
+rename --subst chr19_ _ *.nex.rates
+rename --subst chr20_ _ *.nex.rates
+rename --subst chr21_ _ *.nex.rates
+rename --subst chr22_ _ *.nex.rates
+rename --subst chr23_ _ *.nex.rates
+rename --subst chr24_ _ *.nex.rates
+rename --subst chr26_ _ *.nex.rates
+rename --subst chrun_random _ *.nex.rates
+rename --subst chrx_ _ *.nex.rates
+rename --subst chrz_ _ *.nex.rates
+
+rename --delete _s  *.nex.rates
+rename --delete _  *.nex.rates
+
