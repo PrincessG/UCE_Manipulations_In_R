@@ -1,0 +1,33 @@
+###Hello, here are a few commands to remove the outgroup from each BigBird UCE file and change the taxon number ######
+### Please Note: These commands only work on unix machines, not Linux; sorry! ###
+grep -ilre 'alligator_mississippiensis' . | xargs sed -i _WithALLIGATOR '/alligator_mississippiensis/d'
+
+grep -ilre 'ntax=49' . | xargs sed -i _WRONGTAXA 's/ntax=49/ntax=48/g'
+
+
+### Here are the commands to prune the "clade 7" clade  from each alignment file. 
+
+grep -ilre 'fulmarus_glacialis' . | xargs sed -i Withfulmarus '/fulmarus_glacialis/d'
+
+grep -ilre 'aptenodytes_forsteri' . | xargs sed -i _WithApteno '/aptenodytes_forsteri/d'
+
+grep -ilre 'pygoscelis_adeliae' . | xargs sed -i _WithPygoscelis '/pygoscelis_adeliae/d'
+
+grep -ilre 'nipponia_nippon' . | xargs sed -i _WithNipponia '/nipponia_nippon/d'
+
+grep -ilre 'egretta_garzetta' . | xargs sed -i _WithEgretta '/egretta_garzetta/d'
+
+grep -ilre 'pelecanus_crispus' . | xargs sed -i _WithPelecanus '/pelecanus_crispus/d'
+
+grep -ilre 'gavia_stellata' . | xargs sed -i _WithGavia '/gavia_stellata/d'
+
+grep -ilre 'chaetura_pelagica' . | xargs sed -i _WithChaetura '/chaetura_pelagica/d'
+
+grep -ilre 'calpte_anna' . | xargs sed -i _WithCalpte '/calpte_anna/d'
+
+grep -ilre 'caprimugus_carolinensis' . | xargs sed -i _WithCaprimugus '/caprimugus_carolinensis/d'
+
+
+grep -ilre 'ntax=48' . | xargs sed -i _48_TAXA 's/ntax=48/ntax=38/g'
+
+
