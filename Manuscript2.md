@@ -1,8 +1,8 @@
 ###Instructions for data analysis in manuscript2. 
 
-1)Navigate to the directory where each nexus.rate file lives.
-2)Export list of UCEs of interest from R.
-3)Open UCE interest text file and Find & replace using textwrangler so that each line in the text file matches the following
+#1)Navigate to the directory where each nexus.rate file lives.
+#2)Export list of UCEs of interest from R.
+#3)Open UCE interest text file and Find & replace using textwrangler so that each line in the text file matches the following
 4)find .nex"
 5)Replace with .nex.rates
 6)Remove carriage returns and quotations so that every UCE is on the first line separated by a space.
