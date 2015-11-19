@@ -1,4 +1,6 @@
-# Hello! These are commmand to clean up the UCE.nex.rate files names so that the signal/noise scripts in mathematica will work. This is done using bash in terminal. You will have to be in the directory with each .nex.rates file.
+# Hello! These are commmand to clean up the UCE.nex.rate files names so that the signal/noise scripts in mathematica will work. 
+# This is done using bash in terminal. 
+# You will have to be in the directory with each .nex.rates file.
  
 rename --subst chr1_ _ *.nex.rates
 rename --subst chr2_ _ *.nex.rates
